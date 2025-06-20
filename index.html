@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SalesAutoMate™</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+    }
+    header {
+      background-color: #20232a;
+      color: white;
+      padding: 2rem;
+      position: relative;
+      text-align: center;
+    }
+    header::after {
+      content: "\00a9 SalesAutoMate™";
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      font-size: 3rem;
+      color: rgba(255, 255, 255, 0.05);
+    }
+    footer {
+      background: #20232a;
+      color: #aaa;
+      padding: 1rem;
+      text-align: center;
+    }
+    .card {
+      margin-bottom: 2rem;
+    }
+    .btn-download {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SalesAutoMate™ Software Suite</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">SalesAutoMate™</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="license.html">License</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5" id="home">
+    <h2>Welcome to SalesAutoMate™</h2>
+    <p><strong>Brand Owner:</strong> Rajdeep Chatterjee</p>
+    <p><strong>Email:</strong> your@email.com</p>
+    <p><strong>Qualifications:</strong> English Hons. Graduate, ADPBA (Advanced Diploma in Accountancy, GTIA)</p>
+
+    <h3 class="mt-5">Software Products</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Quotation Generator</h5>
+            <p class="card-text">Automates professional quotation generation with export to PDF, client templates, and record logs.</p>
+            <a href="/downloads/quotation-generator.zip" class="btn btn-primary btn-download">Download</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">JSON Indexer</h5>
+            <p class="card-text">An advanced engine to index, search, and retrieve complex JSON datasets. CLI & GUI ready.</p>
+            <a href="/downloads/json-indexer.zip" class="btn btn-primary btn-download">Download</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">StockMate</h5>
+            <p class="card-text">Smart stock and inventory manager with alerts, charts, purchase and sales reporting.</p>
+            <a href="/downloads/stockmate.zip" class="btn btn-primary btn-download">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rajdeep Chatterjee. All rights reserved.</p>
+    <p>&copy; 2025 SalesAutoMate™. Trademark protected. Watermark in use.</p>
+  </footer>
+</body>
+</html>
+
