@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SalesAutoMate™</title>
+  <title>SalesAutoMate™ | Official Site</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f4f4;
+      background-color: #f9f9f9;
+      margin: 0;
     }
     header {
-      background-color: #20232a;
+      background: linear-gradient(135deg, #20232a, #1e1e2f);
       color: white;
-      padding: 2rem;
-      position: relative;
+      padding: 3rem 1rem;
       text-align: center;
     }
     header::after {
@@ -24,26 +24,40 @@
       position: absolute;
       bottom: 10px;
       right: 20px;
-      font-size: 3rem;
+      font-size: 2.5rem;
       color: rgba(255, 255, 255, 0.05);
     }
     footer {
-      background: #20232a;
-      color: #aaa;
-      padding: 1rem;
+      background: #1c1c1c;
+      color: #bbb;
+      padding: 2rem 1rem;
       text-align: center;
     }
     .card {
-      margin-bottom: 2rem;
+      border: none;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
     }
     .btn-download {
       margin-top: 1rem;
+      width: 100%;
+    }
+    .brand-emails a {
+      text-decoration: none;
+      color: #0d6efd;
+    }
+    .brand-emails a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>SalesAutoMate™ Software Suite</h1>
+    <h1>SalesAutoMate™</h1>
+    <p>Automation Excellence for Businesses</p>
   </header>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -54,7 +68,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link" href="license.html">License</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -63,39 +77,49 @@
     </div>
   </nav>
 
-  <main class="container py-5" id="home">
-    <h2>Welcome to SalesAutoMate™</h2>
-    <p><strong>Brand Owner:</strong> Rajdeep Chatterjee</p>
-    <p><strong>Email:</strong> <a href="mailto:rajdeepchatterjee@salesautomate.site">rajdeepchatterjee@salesautomate.site</a></p>
-    <p><strong>Support:</strong> <a href="mailto:support@salesautomate.site">support@salesautomate.site</a></p>
-    <p><strong>Info:</strong> <a href="mailto:info@salesautomate.site">info@salesautomate.site</a></p>
-    <p><strong>Qualifications:</strong> English Hons. Graduate, ADPBA (Advanced Diploma in Accountancy, GTIA)</p>
+  <main class="container py-5">
+    <div class="text-center mb-4">
+      <h2>Welcome to SalesAutoMate™</h2>
+      <p class="lead">Empowering businesses with smart, efficient, and professional-grade software solutions.</p>
+    </div>
 
-    <h3 class="mt-5">Software Products</h3>
+    <div class="mb-5">
+      <h4>Brand Overview</h4>
+      <p><strong>Founder:</strong> Rajdeep Chatterjee</p>
+      <p><strong>Domain:</strong> <a href="https://www.salesautomate.site">www.salesautomate.site</a></p>
+      <div class="brand-emails">
+        <p><strong>Primary Email:</strong> <a href="mailto:rajdeepchatterjee@salesautomate.site">rajdeepchatterjee@salesautomate.site</a></p>
+        <p><strong>Support:</strong> <a href="mailto:support@salesautomate.site">support@salesautomate.site</a></p>
+        <p><strong>Info:</strong> <a href="mailto:info@salesautomate.site">info@salesautomate.site</a></p>
+      </div>
+      <p><strong>Qualifications:</strong> English Hons. Graduate, ADPBA (Advanced Diploma in Accountancy, GTIA)</p>
+    </div>
+
+    <h3 class="mb-4">Our Software Products</h3>
     <div class="row">
       <div class="col-md-4">
-        <div class="card">
+        <div class="card p-3">
           <div class="card-body">
             <h5 class="card-title">Quotation Generator</h5>
-            <p class="card-text">Automates professional quotation generation with export to PDF, client templates, and record logs.</p>
+            <p class="card-text">Create and export professional quotations with ease, complete with templates and logs.</p>
             <a href="/downloads/quotation-generator.zip" class="btn btn-primary btn-download">Download</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card p-3">
           <div class="card-body">
             <h5 class="card-title">JSON Indexer</h5>
-            <p class="card-text">An advanced engine to index, search, and retrieve complex JSON datasets. CLI & GUI ready.</p>
+            <p class="card-text">Index, search, and retrieve complex JSON data structures with a user-friendly CLI and GUI.</p>
             <a href="/downloads/json-indexer.zip" class="btn btn-primary btn-download">Download</a>
           </div>
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card">
+        <div class="card p-3">
           <div class="card-body">
             <h5 class="card-title">StockMate</h5>
-            <p class="card-text">Smart stock and inventory manager with alerts, charts, purchase and sales reporting.</p>
+            <p class="card-text">A complete inventory management system with tracking, reports, alerts, and more.</p>
             <a href="/downloads/stockmate.zip" class="btn btn-primary btn-download">Download</a>
           </div>
         </div>
@@ -105,8 +129,10 @@
 
   <footer>
     <p>&copy; 2025 Rajdeep Chatterjee. All rights reserved.</p>
-    <p>&copy; 2025 SalesAutoMate™. Trademark protected. Watermark in use.</p>
-    <p>Contact us: <a href="mailto:info@salesautomate.site">info@salesautomate.site</a> | <a href="mailto:support@salesautomate.site">support@salesautomate.site</a></p>
+    <p>&copy; 2025 SalesAutoMate™. All content, brand assets, and software protected under proprietary license.</p>
+    <p>Contact: <a href="mailto:info@salesautomate.site">info@salesautomate.site</a> | <a href="mailto:support@salesautomate.site">support@salesautomate.site</a></p>
   </footer>
 </body>
-</html>    
+</html>
+
+   
